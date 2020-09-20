@@ -51,7 +51,7 @@ window.addEventListener("load", function() {
        } else if (isNaN(pilotTest) === false || isNaN(copilotTest) === false || isNaN(fuelLevel) || isNaN(cargoLevel)) {
            alert("Make sure to enter valid information for each field!");
        } else {
-           list.style.visibility = "visible";
+           note.style.visibility = "visible";
            pilotStatus.innerHTML = `Pilot ${pilot} is ready for launch`;
            copilotStatus.innerHTML = `Co-pilot ${copilot} is ready for launch`;
            let launchStatus = document.getElementById("launchStatus");
